@@ -1,0 +1,80 @@
+.sub_heading__container {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(8, 63, 145);
+    flex-wrap: wrap;
+    height: 50px;
+    
+}
+
+.sub_heading__container span {
+    color: rgb(222, 233, 223);
+}
+
+.sub_heading__container span:nth-child(2) {
+    color: rgb(8, 2, 2);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.sub_heading__container span[id=span]:hover {
+    text-decoration: underline red;
+    color: red;
+}
+
+.collections__cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+     
+    margin-top: 2.5rem;
+}
+
+.cards {
+    height: 300px;
+    min-width: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cards:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 15px 5px #A0A0A0;
+    cursor: pointer;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(80, 80, 80, 0.8)0%, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)100%);
+    z-index: 5;
+}
+
+.overlay img {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.collections__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    font-size: 0.9rem;
+    z-index: 6;
+}

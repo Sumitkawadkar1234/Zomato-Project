@@ -1,0 +1,17 @@
+.container-1{
+    background-color: rgb(119, 190, 202);
+    width: 640px;   
+    justify-content : center;
+    display: flex;
+}
+
+h1{
+    font-size: 2.5em;
+    color: #040113;
+    padding: 15px;
+    justify-content: center;
+}
+
+.container-2{
+    font-size: 2.0em;
+}
